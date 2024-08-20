@@ -1,0 +1,56 @@
+name: ics
+description: "A new Flutter project."
+
+version: 1.0.0+1
+
+environment:
+  sdk: '>=3.4.3 <4.0.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+  cupertino_icons: ^1.0.6
+  carousel_slider: ^5.0.0
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_launcher_icons: ^0.13.1
+
+flutter_lints: ^3.0.0
+
+flutter_launcher_icons:
+  android: 
+    image_path: "assets/images/ics-logo.jpg"
+    min_sdk_version: 21
+  ios:
+    image_path: "assets/images/ics-logo.jpg"
+  web:
+    generate: true
+    image_path: "assets/images/ics-logo.jpg"
+    background_color: "#fec224"  
+    theme_color: "#005a54"       
+  windows:
+    generate: true
+    image_path: "assets/images/ics-logo.jpg"
+    icon_size: 48
+  macos:
+    generate: true
+    image_path: "assets/images/ics-logo.jpg"
+
+flutter:
+  uses-material-design: true
+
+  assets:
+    - assets/images/ics-logo.jpg
+    - assets/images/ics-logo.jpg
+    - assets/images/placeholder-landscape-img.jpg
+
+  fonts:
+    - family: Poppins
+      fonts:
+        - asset: assets/fonts/Poppins/Poppins-Regular.ttf
+          weight: 400
+        - asset: assets/fonts/Poppins/Poppins-Bold.ttf
+          weight: 700
+ 
